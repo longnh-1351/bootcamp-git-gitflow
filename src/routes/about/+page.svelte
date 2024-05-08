@@ -33,7 +33,7 @@
 	<ul>
 		{#each members as path}
 			<li>
-				<a href={path}>{path}</a>
+				<a href={`/${path}`}>{path}</a>
 			</li>
 		{/each}
 	</ul>
