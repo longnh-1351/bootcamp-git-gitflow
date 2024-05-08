@@ -7,9 +7,11 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 		interface Platform {
-			env?: {
-				//
+			env: {};
+			context: {
+				waitUntil(promise: Promise<any>): void;
 			};
+			caches: CacheStorage & { default: Cache };
 		}
 	}
 }
