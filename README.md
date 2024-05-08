@@ -19,12 +19,12 @@ git checkout -b feat/my-feature
 git checkout develop
 git merge --no-ff feature/my-feature
 ```
-4. Start a Release: Create a release branch from `develop`.
+~~4. Start a Release: Create a release branch from `develop`.~~
 ```bash
 git checkout -b release/1.0.0 develop
 ```
-5. Test and Finalize the Release: Perform final testing, bug fixing, and version bumping on the release branch.
-6. Finish the Release: Merge the release branch into both `main` and `develop`, and tag it with a version number.
+5. Test and Finalize the Release: Perform final testing, bug fixing, and version bumping on the release branch (or `develop` branch).
+6. Finish the Release: Merge the release/`develop` branch into both `main` (and `develop`), and tag it with a version number.
 ```bash
 git checkout main
 git merge --no-ff release/1.0.0
