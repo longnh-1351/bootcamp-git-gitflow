@@ -3,8 +3,14 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
+<script>
+	const members = [
+		"kimnh-0823",
+	];
+</script>
+
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>About thissssssssssss app</h1>
 
 	<p>
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
@@ -23,4 +29,12 @@
 		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
 		using it with JavaScript disabled!
 	</p>
+
+	<ul>
+		{#each members as path}
+			<li>
+				<a href={`/${path}`}>{path}</a>
+			</li>
+		{/each}
+	</ul>
 </div>
