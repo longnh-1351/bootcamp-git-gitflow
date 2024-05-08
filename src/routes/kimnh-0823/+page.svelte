@@ -1,1 +1,1 @@
-Đây là trang cá nhân của Nguyễn Hữu Kim
+Hi, I'm Kim. Nice to meet you!
