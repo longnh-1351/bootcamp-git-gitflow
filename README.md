@@ -2,6 +2,11 @@
 
 This repository is used for training purposes about `Gitflow` workflow.
 
+| Branch    | Environment | URL                                            |
+| --------- | ----------- | ---------------------------------------------- |
+| `develop` | Staging     | https://develop.bootcamp-git-gitflow.pages.dev |
+| `main`    | Production  | https://bootcamp-git-gitflow.pages.dev         |
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
