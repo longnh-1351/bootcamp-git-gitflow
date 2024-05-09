@@ -5,7 +5,7 @@
 
 <script>
 	const members = [
-		"kimnh-0823",
+		"kimnh-0823", ntduc
 	];
 </script>
 
